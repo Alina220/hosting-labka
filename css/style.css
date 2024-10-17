@@ -1,0 +1,83 @@
+#input{
+    width: 700px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    /* vertical-align: top; */
+    box-shadow: 5px 5px 5px 4px rgba(0,0,0, 0.2);
+}
+
+#input:focus{
+    border: none;
+}
+
+
+body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    /* height: 100vh; */
+}
+html{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.main-body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#submit{
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(17, 203, 17);
+    color: white;
+    font-weight: 800;
+    width: 100px;
+    border-radius: 30px;
+    padding: 0;
+}
+
+#submit:hover{
+    background-color: rgb(104, 82, 82);
+    /* border: grey 2px dotted; */
+}
+.button-font{
+    display: flex;
+    justify-content: center;
+    /* margin: 5px; */
+    /* justify-content: space-around; */
+}
+
+.scroll{
+    width: 70%;
+    height: 200px;
+    margin: 10px;
+    overflow-y: auto; 
+    border: none;
+    overflow-x: hidden; 
+}
+
+
+#input-number{
+    height: 30px;
+    width: 30px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+.pe{
+    /* width: 100px;
+    height: 200px; */
+    height: 200px;
+    overflow-y: auto; 
+    border: none;
+    overflow-x: hidden; 
+
+}
